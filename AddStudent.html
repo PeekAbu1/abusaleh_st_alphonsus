@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+</head>
+<body>
+    <h1>Add Student</h1>
+    
+    <form action="addstudent.php" method="post">
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+        <label for="studentAddress">Address:</label>
+        <input type="text" id="studentAddress" name="studentAddress" required>
+
+        <label for="medicalInfo">Medical Information:</label>
+        <textarea id="medicalInfo" name="medicalInfo" rows="4"></textarea>
+
+        <label for="classID">Class ID:</label>
+        <input type="text" id="classID" name="classID" required>
+
+        <label for="parent1ID">Parent 1 ID:</label>
+        <input type="text" id="parent1ID" name="parent1ID" required>
+
+        <label for="parent2ID">Parent 2 ID:</label>
+        <input type="text" id="parent2ID" name="parent2ID">
+
+        <button type="submit">Add Student</button>
+    </form>
+</body>
+</html>
